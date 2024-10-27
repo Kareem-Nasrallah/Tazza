@@ -55,7 +55,8 @@ body {
 .fas {
   color: #ffffffdd;
 }
-body>div, section{
+body > div,
+section {
   padding-top: 7rem;
   padding-bottom: 4rem;
 }
@@ -333,7 +334,7 @@ header {
       border-radius: 25px;
       .row {
         .imgBox {
-          padding: 1.5rem;
+          padding: 0;
           background: $bg-color;
           @include flexCenter;
           .secImgBox {
@@ -520,9 +521,9 @@ header {
 @media (width <= 991px) {
   header {
     .container-fluid {
-      ul{
+      ul {
         border-bottom: 1px solid $gray-color;
-            width: 80% !important;
+        width: 80% !important;
         max-width: 250px !important;
       }
     }

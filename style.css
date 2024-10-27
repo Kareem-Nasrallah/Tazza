@@ -317,7 +317,7 @@ header .container-fluid .navbar-collapse .contact p {
   border-radius: 25px;
 }
 .customers .swiperBox .carousel-inner .row .imgBox {
-  padding: 1.5rem;
+  padding: 0;
   background: #03262c;
   display: flex;
   justify-content: center;
